@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  header {
+    background: #4CAF50;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .section {
+    padding: 2rem 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+    color: #4CAF50;
+  }
+  
+  .experience-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .experience-list li {
+    margin-bottom: 1.5rem;
+  }
+  
+  footer {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #4CAF50;
+  }
+  
