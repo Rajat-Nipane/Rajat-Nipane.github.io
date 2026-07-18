@@ -8,9 +8,9 @@ export const profile = {
   tagline: "Software Engineer building fast, reliable backend systems & APIs",
   summary:
     "I design and build scalable services, real-time data pipelines, and clean developer-facing APIs. Currently exploring new opportunities where I can solve hard backend problems.",
-  email: "rajat@robotaisolutions.com",
+  email: "rnipane1@binghamton.edu.com",
   github: "https://github.com/your-github",
-  linkedin: "https://linkedin.com/in/your-linkedin",
+  linkedin: "www.linkedin.com/in/rajatnipane",
   photo: "/profile.jpg",
 };
 
