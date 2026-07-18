@@ -30,19 +30,31 @@ export const about = {
 export const skills = [
   {
     category: "Languages",
-    items: ["Python", "JavaScript", "TypeScript", "Java", "Go", "SQL"],
+    items: ["JavaScript", "TypeScript", "Python"],
   },
   {
-    category: "Backend & APIs",
-    items: ["Node.js", "FastAPI", "Django", "REST", "GraphQL", "gRPC"],
+    category: "Frontend",
+    items: ["Vue.js (2 & 3)", "React", "Vuetify", "Tailwind CSS"],
   },
   {
-    category: "Data & Infra",
-    items: ["PostgreSQL", "MongoDB", "Redis", "Kafka", "Docker", "AWS"],
+    category: "Backend",
+    items: ["Node.js", "Express", "Deno", "FastAPI"],
   },
   {
-    category: "Tools & Practices",
-    items: ["Git", "CI/CD", "Linux", "Testing", "System Design", "Agile"],
+    category: "Databases",
+    items: ["PostgreSQL", "MongoDB", "MySQL", "Supabase"],
+  },
+  {
+    category: "Cloud & DevOps",
+    items: ["AWS", "GCP (Cloud Run)", "Docker", "Kubernetes", "CI/CD (Bitbucket Pipelines)"],
+  },
+  {
+    category: "AI/ML",
+    items: ["OpenAI", "Pinecone", "Retrieval-Augmented Generation (RAG)"],
+  },
+  {
+    category: "Tools",
+    items: ["Git", "Postman", "Apidog", "K6", "SuperOak"],
   },
 ];
 
@@ -83,18 +95,38 @@ export const projects = [
 
 export const experience = [
   {
-    role: "Software Engineer",
-    org: "Databento",
-    dates: "2024 — Present",
-    description:
-      "Built and maintained APIs for real-time financial data streaming and analytics, serving high-volume client traffic with low-latency requirements.",
+    role: "Software Developer",
+    org: "Advanced Robot Solutions",
+    location: "Milford, CT, USA",
+    dates: "Aug 2023 — Present",
+    achievements: [
+      "Developed and deployed a production AI-powered kiosk application for a county government system using Vue 3, Node.js, Pinia, Strapi, and Google Cloud Run, enabling conversational public service access.",
+      "Designed and built scalable REST APIs using Node.js, TypeScript, and Express, integrating a Pinecone vector database and implementing RAG-based search using OpenAI GPT-4.",
+      "Engineered a real-time heartbeat monitoring system using WebSockets and Supabase, reducing system status detection time from 60 minutes to under 1 minute (98% improvement).",
+      "Developed serverless APIs using Deno, TypeScript, and Supabase Edge Functions, supporting a distributed and scalable backend architecture.",
+      "Implemented unit and integration testing (Deno + SuperOak), achieving 95% test coverage and improving system reliability.",
+      "Built and maintained CI/CD pipelines using Bitbucket, reducing deployment time by 30% and improving release efficiency.",
+      "Performed load and performance testing using K6, identifying bottlenecks and improving API response times under high traffic conditions.",
+      "Developed responsive dashboard UI components using Vue, Vuetify, and Vuex, enhancing usability and user experience.",
+    ],
   },
   {
-    role: "Backend Engineer",
-    org: "XYZ Corp",
-    dates: "2020 — 2024",
-    description:
-      "Developed and maintained microservices, optimized database queries, and improved system reliability across core product infrastructure.",
+    role: "Intern",
+    org: "Advanced Micro Devices",
+    location: "Austin, TX, USA",
+    dates: "Jun 2023 — Aug 2023",
+    achievements: [
+      "Developed Python-based tooling to analyze and decode silicon diagnostic data, enabling faster performance evaluation workflows for AMD hardware testing.",
+    ],
+  },
+  {
+    role: "System Programmer",
+    org: "IBM / Kyndryl",
+    location: "Pune, India",
+    dates: "Jul 2016 — Dec 2021",
+    achievements: [
+      "Developed and optimized automation scripts and a performance testing framework for large-scale banking applications using C, LoadRunner, and HP BSM.",
+    ],
   },
 ];
 

@@ -23,8 +23,19 @@ export default function Experience() {
                 <h3 className="text-lg">{job.role}</h3>
                 <span className="text-sm text-text-muted font-display">{job.dates}</span>
               </div>
-              <p className="text-accent font-medium text-sm mb-2">{job.org}</p>
-              <p className="text-text-muted text-sm">{job.description}</p>
+              <div className="flex justify-between items-baseline flex-wrap gap-2 mb-3">
+                <p className="text-accent font-medium text-sm">{job.org}</p>
+                {job.location && (
+                  <span className="text-xs text-text-muted">{job.location}</span>
+                )}
+              </div>
+              {job.achievements && (
+                <ul className="text-text-muted text-sm space-y-2 list-disc pl-4">
+                  {job.achievements.map((point, idx) => (
+                    <li key={idx}>{point}</li>
+                  ))}
+                </ul>
+              )}
             </Reveal>
           ))}
         </div>
