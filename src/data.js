@@ -21,7 +21,7 @@ export const about = {
     "Outside of day-to-day engineering, I'm always poking at side projects and new tools — this site included.",
   ],
   stats: [
-    { label: "Years Experience", value: "4+" },
+    { label: "Years Experience", value: "8+" },
     { label: "Projects Shipped", value: "15+" },
     { label: "Companies", value: "3" },
   ],
@@ -100,10 +100,16 @@ export const experience = [
 
 export const education = [
   {
-    degree: "B.S. in Computer Science",
-    school: "Your University Name",
-    dates: "2016 — 2020",
-    description:
-      "Coursework in data structures, algorithms, databases, and distributed systems.",
+    degree: "M.S. in Computer Science",
+    school:
+      "Binghamton University, State University of New York — Thomas J. Watson College of Engineering and Applied Science",
+    dates: "Jan 2022 — Aug 2023",
+    description: "",
+  },
+  {
+    degree: "B.E. in Computer Science",
+    school: "G.H. Raisoni College of Engineering, Nagpur",
+    dates: "2012 — 2016",
+    description: "",
   },
 ];

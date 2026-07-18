@@ -12,16 +12,20 @@ export default function Education() {
           Academic background
         </Reveal>
 
-        {education.map((edu) => (
-          <Reveal key={edu.school} className="bg-surface border border-border rounded-xl p-8">
-            <div className="flex justify-between items-baseline flex-wrap gap-2 mb-1">
-              <h3 className="text-lg">{edu.degree}</h3>
-              <span className="text-sm text-text-muted font-display">{edu.dates}</span>
-            </div>
-            <p className="text-accent font-medium text-sm">{edu.school}</p>
-            <p className="text-text-muted mt-2">{edu.description}</p>
-          </Reveal>
-        ))}
+        <div className="flex flex-col gap-6">
+          {education.map((edu) => (
+            <Reveal key={edu.school} className="bg-surface border border-border rounded-xl p-8">
+              <div className="flex justify-between items-baseline flex-wrap gap-2 mb-1">
+                <h3 className="text-lg">{edu.degree}</h3>
+                <span className="text-sm text-text-muted font-display">{edu.dates}</span>
+              </div>
+              <p className="text-accent font-medium text-sm">{edu.school}</p>
+              {edu.description && (
+                <p className="text-text-muted mt-2">{edu.description}</p>
+              )}
+            </Reveal>
+          ))}
+        </div>
       </div>
     </section>
   );
